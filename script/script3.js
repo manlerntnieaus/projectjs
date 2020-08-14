@@ -32,33 +32,6 @@ function rememberMyFilms () {
 		i--;
 		}
 	}
-// let i = 0;
-// while (i < 2) {
-// 	const q1 = prompt("Один из последних просмотренных фильмов?", ""),
-// 		  q2 = +prompt("На сколько оцените его?", "");
-// 	i++;
-// 	if (q1 != null && q2 != null && q1 != "" && q2 != "" && q1.length < 50) {
-// 		personalMovieDB.movies[q1] = q2;
-// 		console.log("done");
-// 	} else {
-// 		console.log("error");
-// 		i--;
-// 	}
-// }
-
-// let i = 0;
-// do {
-//   const q1 = prompt("Один из последних просмотренных фильмов?", ""),
-//         q2 = +prompt("На сколько оцените его?", "");
-//   i++;
-//   if (q1 != null && q2 != null && q1 != "" && q2 != "" && q1.length < 50) {
-//     personalMovieDB.movies[q1] = q2;
-//     console.log("done");
-//   } else {
-//     console.log("error");
-//     i--;
-//   }
-// } while (i < 2);
 }
 rememberMyFilms ();
 
